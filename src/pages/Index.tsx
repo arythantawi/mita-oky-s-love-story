@@ -7,6 +7,7 @@ import { GiftSection } from '@/components/wedding/GiftSection';
 import { GuestbookSection } from '@/components/wedding/GuestbookSection';
 import { FooterSection } from '@/components/wedding/FooterSection';
 import { MusicPlayer } from '@/components/wedding/MusicPlayer';
+import { CaricatureSection } from '@/components/wedding/CaricatureSection';
 import { Helmet } from 'react-helmet-async';
 
 const Index: React.FC = () => {
@@ -43,6 +44,7 @@ const Index: React.FC = () => {
             <CoupleSection />
             <EventSection />
             <TimelineSection />
+            <CaricatureSection />
             <GiftSection />
             <GuestbookSection />
             <FooterSection />
